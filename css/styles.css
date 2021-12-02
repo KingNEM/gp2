@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color:black;
+    color: cornsilk;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-image: url(../image/cover.jpg);
+    border-style: double;
+    border-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.082);
+    padding: 10px;
+    box-shadow: 0 0 20px 0 gray;
+    border-radius: 6px;
+    margin: 0;
+}
+   
+}
+h1 {color: teal;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align:center;
+    background-color: dimgray;
+}
+h2 {
+    color: #a82877;
+    width: 60%;
+}
+h3 {
+    color: #a82877;
+    width: 60%;
+}
+h4 {
+    color: #a82877;
+}
+form {
+    width: 60%;
+    padding: 20px;
+    border-radius: 6px;
+    background: transparent;
+    box-shadow: 0 0 20px 0 #9ba8283b;
+    float: right;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #9ba8283b;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #9ba8283b;
+}
+
+.form-control:hover,
+.form-check-label:hover,
+input:hover::placeholder {
+    color: #9ba8283b;
+}
+
+.form-group input:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px 0 #9ba8283b;
+    color: #9ba8283b;
+}
+.card {
+    border-top: 2px solid #9ba8283b;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 20px 0 #9ba8283b;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 2px solid #9ba8283b;
+    box-shadow: 0 0 20px 0 #9ba8283b;
+    background-color: black;
+    color: white;
+    width: 60%;
+    border-radius: 6px;
+    float: right;
+}
+
+.footer {
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 gray;
+    width: 100%;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        color: white;
+        background-image: url(../image/cover.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+p {
+    font-family: monospace;
+    font: size 28px;
+}
+}

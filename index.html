@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Naming</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            
+</head>
+        <body>
+        <div class="container">
+            <header>
+                <h1> AKAN NAMING <i class="	fas fa-grin-hearts"></i></h1>
+        </header>     
+        <br>
+        <br style="clear:both">
+        <div class="row">
+            <div class="col-md-6" style="text-align: center">
+
+                <div class="card">
+                    <div class="card-header">
+     <p>Its an application that calculates the day a user is born depending on
+         their gender and then outputs their Akan name </p>
+        </div>
+        <div class="card-body">
+             <p1>Akan names are derived from the Ghanian culture to name their children after 
+        the day of the week they were born and the order in which they were born. 
+        These "day names" have further meanings concerning the soul and character of the person. 
+        Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+        The Akan do not name a child until a child's been alive for seven days. 
+        The feeling is that the baby might be a spirit who has come to look at the world and then go back.</p1>
+         <p2>Below are the Ghanian Akan day names:</p2>
+         <h2>Male</h2>
+         <ul id="ul1">
+             <li class="grey">Sunday:Kwasi</li>
+             <li>Monday:Kwadwo</li>
+             <li>Tuesday:Kwabena</li>
+             <li>Wednesday:Kwaku</li>
+             <li>Thursday:Yaw</li>
+             <li>Friday:Kofi</li>
+             <li>Saturday:Kwame</li>    
+         </ul>
+         <h3>Female</h3>
+         <ul id="ul2">
+                 <li class="grey">Sunday:Akosua</li>
+                 <li>Monday:Adwoa</li>
+                 <li>Tuesday:Abenaa</li>
+                 <li>Wednesday:Akua</li>
+                 <li>Thursday:Yaa</li>
+                 <li>Friday:Afua</li>
+                 </li>Saturday:Ama</li>
+         </ul>
+         <p3>Yeey!!Exciting,Know your Akan name.</p3>
+         <a style="color:#28a0a8" href="http://www2.hsp.org/exhibits/Balch%20exhibits/rites/akan.html">Find out more about akan Names</a>
+        </div>
+    </div>
+</div>
+<br style="clear: both">
+<br>
+<div class="col-md-6" style="text-align: center">
+    <h4>Fill in your details here!!</h2>
+    <div>
+        <form name="myForm">
+            <div class="form-group">
+                <label for="name">Name </label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date of Birth</label>
+                <input type="date" class="form-control" name="date" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <div class="form-group form-check">
+
+                    <div>
+                        <input type="radio" class="form-check-input" name="gender" id="female" value="female" checked required>
+                        <label class="form-check-label" for="gender">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="form-check-input" name="gender" id="male" value="female" required>
+                        <label class="form-check-label" for="gender">Male</label>
+        </div>
+    </div>
+</div>
+<div>
+    <button type="submit" class="button" name="btn-submit" onClick="getResults(event)">Submit</button>
+</div>
+</form>
+</div>
+<br style="clear: both">
+<div>
+<fieldset>
+<Legend>output </Legend>
+<p id="displayarea"></p>
+</fieldset>
+</div>
+</div>
+</div>
+
+<br style="clear:both ">
+
+<div class="footer ">
+<div class="copyright " style="text-align:center ">
+    <p>It has been exciting to know my Akan name</p>
+<p>
+Copyright &copy 2021 All Rights Reserved,
+<a href="https://github.com/KingNEM "><i class="fa fa-cloud "></i> N.Elvis.M </a>
+</p>checkout
+</div>
+
+
+<script src="js/scripts.js"></script>
+    </body>
+    </html>  
